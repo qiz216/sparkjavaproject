@@ -17,12 +17,14 @@ public class Main {
 		HomePageHandler homePageHandler = new HomePageHandler();
 		TodoListHandler todoListHandler = new TodoListHandler();
 		RewardHandler rewardHandler = new RewardHandler();
+		UserHandler userHandler = new UserHandler();
 		
 		get("/", homePageHandler);
 		get("/toeat", todoListHandler);
 		get("/taskdone", todoListHandler);
+		get("/user", userHandler);
 		get("/reward", rewardHandler);
-		post("/addProfile", rewardHandler);
+		post("/addProfile", userHandler);
 		post("/createtodo", todoListHandler);
 	}
 }

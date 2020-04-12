@@ -37,20 +37,6 @@ public class NutritionGuideline {
 		calculateCarbsAMDR();
 	}
 	
-	public static void main(String[] args) {
-		int age = 88;
-		String activityLevel = "M";
-		String gender = "F";
-		String userName = "Louis";
-		User p1 = new User(userName, age, gender);
-		p1.setActivityLevel(activityLevel);
-		NutritionGuideline test1 = new NutritionGuideline(p1);
-		System.out.println(test1.getCaloriesNeeded());
-		System.out.println(test1.getProteinMid());
-		System.out.println(test1.getFatMid());
-		System.out.println(test1.getCarbsMid());
-	}
-	
 	/**
 	 * Reads the calorie_guideline.csv into this.calorieGuideline
 	 */
