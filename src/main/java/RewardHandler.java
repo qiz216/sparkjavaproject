@@ -51,7 +51,7 @@ public class RewardHandler implements Route{
 			htmlBody +=  "<li class=\"list-group-item active\">" + suggestion + "</li>\n";
 		}
 		htmlBody += "</ul>";
-		return htmlHead + "<body><h3>Your suggestion!<h3>" + htmlBody + "</div></body></html>";
+		return htmlHead + "<body><h3>Hi " + userName + "! Here is your suggestion!<h3>" + htmlBody + "</div></body></html>";
 	}
 	
 }
