@@ -15,7 +15,14 @@ public class RewardHandler implements Route{
 			"  <link rel=\"stylesheet\" href=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css\">\n" + 
 			"  <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js\"></script>\n" + 
 			"  <script src=\"https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js\"></script>\n" + 
-			"</head>\n" + 
+			"</head>" +
+			"  <div class=\"container\">\n" + 
+			"  <img src=\"https://www.forksoverknives.com/wp-content/uploads/fly-images/35705/plantbased-diet-1142x541-c.jpg\" alt=\"food\" style=\"width:100%;opacity: 0.5;\">\n" + 
+			"  <div class=\"text-block\">\n" + 
+			"    <h1>Welcome to Nutrition App</h1>\n" + 
+			"    <p>your health matters</p>\n" + 
+			"  </div>\n" + 
+			"</div>" +
 			"<body><div class=\\\"container\\\"><h2>Our suggestion</h2>";
 
 	public Object handle(Request request, Response response) throws Exception {

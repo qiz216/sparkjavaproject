@@ -26,5 +26,6 @@ public class Main {
 		get("/reward", rewardHandler);
 		post("/addProfile", userHandler);
 		post("/createtodo", todoListHandler);
+		post("/searchFood", todoListHandler);
 	}
 }

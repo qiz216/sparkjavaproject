@@ -1,6 +1,8 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+
+//remember to change data path /app/target/classes/
 /***
  * This class is a String match system to find matched foods and return match results 
  * by user's input
@@ -30,8 +32,8 @@ public class FoodFinder {
 	
 	public static void main(String[] args) {
 		FoodFinder finder = new FoodFinder();
-		ArrayList<String> matchedNames = finder.findMatchedNames("");
-		System.out.println(matchedNames.toString());
+		ArrayList<String> matchedNames = finder.findMatchedNames("apple");
+		System.out.println(matchedNames.size());
 	}
 	
 	/**
@@ -54,9 +56,12 @@ public class FoodFinder {
 	 */
 	public ArrayList<String> getTopNMatched(String name, int topN) {
 		ArrayList<String> matchedNames = findMatchedNames(name);
+		ArrayList<String> selection = matchedNames;
 		// To be developed
 		// just return the first N from the matched array for current test
-		ArrayList<String> selection = new ArrayList<String>(matchedNames.subList(0, topN));
+		if (matchedNames.size() > topN) {
+			selection = new ArrayList<String>(matchedNames.subList(0, topN));
+		} 
 		return selection;
 	}
 

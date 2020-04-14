@@ -100,7 +100,7 @@ public class FoodGroup {
 		}
 		return mealCarbs;
 	}
-	
+
 	
 	public HashMap<String, Food> getFoodDetail() {
 		return foodDetail;
@@ -110,8 +110,8 @@ public class FoodGroup {
 		return foodPortion;
 	}
 
-	/** test
-	//public static void main(String[] args) {
+	// test
+	public static void main(String[] args) {
 		FoodLibrary foods = new FoodLibrary();
 		HashMap<String, Food> foodLib = foods.getLibrary();
 		Food food = foodLib.get("Bagels Wheat");
@@ -119,5 +119,5 @@ public class FoodGroup {
 		System.out.print(food.getName());
 		meal.addFood(food, 1.0);
 		meal.getMealCalories();
-	}**/
+	}
 }
