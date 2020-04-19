@@ -23,7 +23,7 @@ The java app for CIT591 of Team 70
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/7.enablejunit.png'>
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/8.junit.png'>
 
-8. Go to UserInterface -> Main.java and run it. After it is running, go to http://localhost:4567/
+8. Go to **UserInterface -> Main.java** and run it. After it is running, go to http://localhost:4567/
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/9.runMain.png'>
 
 # How to use the App
