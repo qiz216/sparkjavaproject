@@ -3,18 +3,18 @@ The java app for CIT591 of Team 70
 
 # Configuration
 1. First you will have to clone the project to the folder, if you see a "pom.xml" in the folder please delete it. (do **not** delete the pom_file folder!) and then create a new Maven project.
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/1.maven.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/1.maven.png'>
 2. Remember to click "create a simple project", and change the workspace to the folder you just cloned from github. Click next.
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/2.configure_maven.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/2.configure_maven.png'>
 3. You can create whatever name you like for group-id and aircraft-id.
 3. This is the structure you will see after the project is created.
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/3.pomfile.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/3.pomfile.png'>
 4. Open the **pom.xml** 
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/4.replacepom.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/4.replacepom.png'>
 5. Open the **pom_file/pom.xml** and copy all the parts after "<dependencies>" and and paste it after the "</version>" in the **pom.xml** file.
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/5.copy.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/5.copy.png'>
 6. right click on the **pom.xml** file and go to **Maven -> Update Project** and update it.
-<img src="https://github.com/qiz216/sparkjavaproject/tree/master/images/6.updatemaven.png">
+<img src='https://github.com/qiz216/sparkjavaproject/tree/master/images/6.updatemaven.png'>
 7. If you do not have the Junit library in classpath, right click on the project and go to **properties**, in the **Java build path -> Libraries** click **Add Library** and add Junit.
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/7.enablejunit.png'>
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/8.junit.png'>
