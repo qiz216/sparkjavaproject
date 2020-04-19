@@ -2,7 +2,7 @@
 The java app for CIT591 of Team 70
 
 # Configuration
-1. First you will have to clone the project to the folder, if you see a "pom.xml" in the folder please delete it. (do **not** delete the pom_file folder!) and then create a new Maven project.
+1. First you will have to clone the project to a folder, if you see a "pom.xml" in the folder please delete it. (do **not** delete the pom_file folder!) and then create a new Maven project.
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/1.maven.png'>
 2. Remember to click "create a simple project", and change the workspace to the folder you just cloned from github. Click next.
 <img src='https://github.com/qiz216/sparkjavaproject/blob/master/images/2.configure_maven.png'>
