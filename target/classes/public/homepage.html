@@ -6,9 +6,11 @@
         type = "image/x-icon"> 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/bf2355cf37.js" crossorigin="anonymous"></script>
   <style>
 .container {
   position: relative;
@@ -17,9 +19,8 @@
 
 .text-block {
   position: absolute;
-  bottom: 20px;
-  right: 20px;
-  background-color: black;
+  bottom: 1.5px;
+  right: 16.5px;
   color: white;
   padding-left: 20px;
   padding-right: 20px;
@@ -29,43 +30,60 @@
 <body>
 
   <div class="container">
-  <img src="https://www.forksoverknives.com/wp-content/uploads/fly-images/35705/plantbased-diet-1142x541-c.jpg" alt="food" style="width:100%;opacity: 0.5;">
-  <div class="text-block">
-    <h1>Welcome to Nutrition App</h1>
-    <p>your health matters</p>
+  <img class="img-fluid" src="https://www.china-briefing.com/news/wp-content/uploads/2019/04/China-Briefing_Increasing-Awareness-and-Growing-Demand-for-Health-Food-Drive-Food-Imports.jpg" alt="food" width = "2000" height = "400">
+  <div class="text-block bg-success text-white">
+    <h1>Welcome to the Nutrition App</h1>
+    <h4>Your Health Matters</h4>
   </div>
 </div>
 
 <div class="container">
-  <h2>Nutrition App</h2>
-  <p>Team members</p>            
-  <table class="table table-striped">
+  <h3>Team members</h3> 
+
+  <table class="table table-sm">
     <thead>
       <tr>
-        <th>First Name</th>
-        <th>Last Name</th>
-        <th>Email</th>
+        <th style="width: 10%">First Name</th>
+        <th style="width: 10%">Last Name</th>
+        <th style="width: 10%">Email</th>
       </tr>
     </thead>
     <tbody>
-      <tr>
+      <tr> 
+      <tr class="table-danger">
         <td>Deyi</td>
         <td>Zhang</td>
         <td>deyi@seas.upenn.edu</td>
       </tr>
-      <tr>
+      <tr class="table-warning">
         <td>Xixi</td>
         <td>Zhou</td>
         <td>xixizhou@seas.upenn.edu</td>
       </tr>
-      <tr>
+      <tr class="table-success">
         <td>Qi</td>
         <td>Zhao</td>
         <td>qiz216@seas.upenn.edu</td>
       </tr>
+
     </tbody>
+    
   </table>
-  <button style="text-align: center; border: 1px solid" onclick="location.href='/toeat'">Test it right now</button>
+  <div class="d-flex justify-content-center">
+  <span style="font-size: 3em; color: Red;">    
+    <i class="fas fa-apple-alt"></i>
+  <span style="font-size: 48px; color: Orange;">  
+    <i class="fas fa-carrot"></i>
+  <span style="font-size: 48px; color: Dodgerblue;">  
+    <i class="fas fa-fish"></i>
+  <span style="font-size: 48px; color: Lightgreen;">  
+    <i class="fas fa-lemon"></i>
+  <span style="font-size: 48px; color: Grey;">  
+    <i class="fas fa-drumstick-bite"></i>
+  <span style="font-size: 48px; color: Brown;">
+    <i class="fas fa-bread-slice"></i> 
+  </div>
+  <button type = "button" style="text-align: center; border: 1px solid" class="btn btn-outline-success btn-lg btn-block" onclick="location.href='/toeat'">Try it now</button>
 </div>
 
 </body>
