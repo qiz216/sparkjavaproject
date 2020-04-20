@@ -39,8 +39,6 @@ The java app for CIT591 of Team 70
   - <a href="http://www.qizhaolouis.com">Nutrition App</a>
   - The web application is deployed to a server using Heroku
   - It is mapped to a domain using cname.
-- **Website**
-  - <a href="http://www.qizhaolouis.com">Nutrition App</a>
 
 # Team Member
 - Deyi Zhang: `deyi@seas.upenn.edu`
